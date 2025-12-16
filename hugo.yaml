@@ -1,0 +1,70 @@
+baseURL: 'https://yourblog.pages.dev/'
+languageCode: 'ko-kr'
+title: '내 블로그'
+theme: 'PaperMod'
+
+# 빌드 설정
+buildDrafts: false
+buildFuture: false
+
+# 메뉴 구성
+menu:
+  main:
+    - identifier: papers
+      name: 논문 리뷰
+      url: /posts/papers/
+      weight: 10
+    - identifier: thoughts
+      name: 생각 정리
+      url: /posts/thoughts/
+      weight: 20
+    - identifier: music
+      name: 음악 리뷰
+      url: /posts/music/
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
+
+# PaperMod 테마 설정
+params:
+  env: production
+  title: '내 블로그'
+  description: "논문 리뷰, 생각 정리, 음악 리뷰"
+  author: "Your Name"
+
+  # 기능 설정
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+
+  # 테마 모드
+  defaultTheme: auto  # auto, light, dark
+
+  # 홈페이지 설정
+  homeInfoParams:
+    Title: "안녕하세요 👋"
+    Content: "논문 리뷰, 생각 정리, 음악 리뷰를 공유하는 블로그입니다."
+
+# JSON 출력 설정 (AI 친화적)
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+
+# 마크다운 설정
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: monokai
+    lineNos: true
