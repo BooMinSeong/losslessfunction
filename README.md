@@ -1,6 +1,8 @@
-# 내 블로그
+# Never Leave Ph.D
 
 Hugo + Cloudflare Pages로 만든 개인 블로그입니다.
+
+**Blog URL**: https://losslessfunction.pages.dev/
 
 ## 블로그 주제
 
