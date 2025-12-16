@@ -1,6 +1,6 @@
-baseURL: 'https://yourblog.pages.dev/'
+baseURL: 'https://losslessfunction.pages.dev/'
 languageCode: 'ko-kr'
-title: '내 블로그'
+title: 'Never Leave Ph.D'
 theme: 'PaperMod'
 
 # 빌드 설정
@@ -30,9 +30,9 @@ menu:
 # PaperMod 테마 설정
 params:
   env: production
-  title: '내 블로그'
+  title: 'Never Leave Ph.D'
   description: "논문 리뷰, 생각 정리, 음악 리뷰"
-  author: "Your Name"
+  author: "heli"
 
   # 기능 설정
   ShowReadingTime: true
@@ -48,8 +48,8 @@ params:
 
   # 홈페이지 설정
   homeInfoParams:
-    Title: "안녕하세요 👋"
-    Content: "논문 리뷰, 생각 정리, 음악 리뷰를 공유하는 블로그입니다."
+    Title: "Welcome to Never Leave Ph.D"
+    Content: "Ph.D 여정과 함께하는 논문 리뷰, 생각 정리, 음악 감상을 공유하는 공간입니다."
 
 # JSON 출력 설정 (AI 친화적)
 outputs:
