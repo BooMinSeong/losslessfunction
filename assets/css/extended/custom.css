@@ -1,0 +1,140 @@
+/* Minimal design customization */
+
+/* Simplified typography */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.7;
+}
+
+/* Reduce header size */
+.main-header {
+  padding: 1.5rem 0;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Minimal post list */
+.post-entry {
+  border: none;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-entry:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+/* Clean post content */
+.post-content {
+  font-size: 1rem;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-title {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+}
+
+/* Simplified links */
+a {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* Clean code blocks */
+pre {
+  border-radius: 4px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+code {
+  font-family: 'SF Mono', 'Monaco', 'Consolas', monospace;
+  font-size: 0.9em;
+}
+
+/* Minimal footer */
+.footer {
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  border-top: 1px solid var(--border);
+}
+
+/* Remove animations */
+* {
+  transition: none !important;
+  animation: none !important;
+}
+
+/* Clean home page */
+.profile {
+  padding: 3rem 0;
+}
+
+.profile .title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.profile .subtitle {
+  font-size: 1rem;
+  color: var(--secondary);
+  margin-bottom: 2rem;
+}
+
+/* Simplified menu */
+.menu {
+  font-size: 0.95rem;
+}
+
+.menu a {
+  padding: 0.5rem 1rem;
+}
+
+/* Remove decorative elements */
+.post-meta svg,
+.breadcrumbs svg {
+  display: none;
+}
+
+/* Clean spacing */
+article {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+}
+
+/* Minimal lists */
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}

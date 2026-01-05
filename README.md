@@ -27,7 +27,11 @@ hugo server -D
 hugo
 ```
 
-## 새 글 작성
+## 글 작성 가이드
+
+**📝 [WRITING_GUIDE.md](WRITING_GUIDE.md)** - 자세한 글 작성 및 배포 가이드
+
+### 빠른 시작
 
 ```bash
 # 논문 리뷰
@@ -40,9 +44,12 @@ hugo new content posts/thoughts/제목.md --kind thoughts
 hugo new content posts/music/앨범명.md --kind music
 ```
 
-## 배포
+### 배포
 
-`main` 브랜치에 push하면 Cloudflare Pages가 자동으로 빌드 및 배포합니다.
+1. 글 작성 후 `draft: false`로 설정
+2. Git 커밋: `git add . && git commit -m "메시지"`
+3. 푸시: `git push origin 브랜치명`
+4. Cloudflare Pages가 자동으로 빌드 및 배포
 
 ## 프로젝트 구조
 

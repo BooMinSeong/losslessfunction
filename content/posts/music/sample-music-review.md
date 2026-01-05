@@ -18,7 +18,7 @@ cover_image: ""
 rating: 9
 ---
 
-## 🎵 앨범 정보
+## 앨범 정보
 
 - **Artist**: Radiohead
 - **Album**: OK Computer
@@ -26,7 +26,7 @@ rating: 9
 - **Genre**: Alternative Rock, Art Rock
 - **Label**: Parlophone
 
-## 📝 트랙리스트
+## 트랙리스트
 
 1. Airbag
 2. Paranoid Android
@@ -41,7 +41,7 @@ rating: 9
 11. Lucky
 12. The Tourist
 
-## 💬 감상평
+## 감상평
 
 ### 전체적인 인상
 
@@ -55,6 +55,6 @@ Paranoid Android의 다층적인 구조와 Karma Police의 서정적인 멜로�
 
 실험적이면서도 감성적인 록 음악을 좋아하는 분들께 강력히 추천합니다. 90년대 얼터너티브 록의 정수를 느낄 수 있습니다.
 
-## ⭐ 평점
+## 평점
 
 9/10
