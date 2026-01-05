@@ -35,21 +35,21 @@ params:
   author: "heli"
 
   # 기능 설정
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: false
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowToc: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowToc: false
   TocOpen: false
 
   # 테마 모드
-  defaultTheme: auto  # auto, light, dark
+  defaultTheme: light
 
   # 홈페이지 설정
   homeInfoParams:
-    Title: "Welcome to Never Leave Ph.D"
-    Content: "Ph.D 여정과 함께하는 논문 리뷰, 생각 정리, 음악 감상을 공유하는 공간입니다."
+    Title: "Never Leave Ph.D"
+    Content: "논문 리뷰, 생각 정리, 음악 감상"
 
 # JSON 출력 설정 (AI 친화적)
 outputs:
@@ -66,5 +66,5 @@ markup:
     renderer:
       unsafe: true
   highlight:
-    style: monokai
-    lineNos: true
+    style: github
+    lineNos: false

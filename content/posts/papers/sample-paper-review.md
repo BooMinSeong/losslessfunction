@@ -20,7 +20,7 @@ summary: "Transformer 아키텍처를 제안한 획기적인 논문"
 keywords: ["transformer", "attention", "sequence-to-sequence"]
 ---
 
-## 📄 논문 정보
+## 논문 정보
 
 - **Title**: Attention is All You Need
 - **Authors**: Vaswani et al.
@@ -28,11 +28,11 @@ keywords: ["transformer", "attention", "sequence-to-sequence"]
 - **Year**: 2017
 - **Link**: https://arxiv.org/abs/1706.03762
 
-## 🎯 핵심 요약
+## 핵심 요약
 
 이 논문은 RNN이나 CNN 없이 오직 attention 메커니즘만을 사용하는 Transformer 아키텍처를 제안합니다. Self-attention을 통해 시퀀스의 모든 위치를 병렬로 처리할 수 있어 학습 속도가 빠르고, 긴 의존성을 효과적으로 학습할 수 있습니다.
 
-## 🔍 주요 내용
+## 주요 내용
 
 ### 문제 정의
 
@@ -46,7 +46,7 @@ Multi-head self-attention과 position-wise feed-forward 네트워크로 구성�
 
 기계 번역 태스크에서 SOTA를 달성하면서도 학습 시간을 크게 단축했습니다.
 
-## 💭 개인 평가
+## 개인 평가
 
 ### 장점
 
@@ -60,7 +60,7 @@ Multi-head self-attention과 position-wise feed-forward 네트워크로 구성�
 
 NLP뿐만 아니라 비전, 음성 등 다양한 도메인에 적용 가능합니다.
 
-## 🔗 관련 자료
+## 관련 자료
 
 - [Original Paper](https://arxiv.org/abs/1706.03762)
 - [Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
