@@ -27,9 +27,11 @@ hugo server -D
 hugo
 ```
 
-## 글 작성 가이드
+## 가이드 문서
 
-**📝 [WRITING_GUIDE.md](WRITING_GUIDE.md)** - 자세한 글 작성 및 배포 가이드
+**📝 [WRITING_GUIDE.md](WRITING_GUIDE.md)** - 글 작성 및 배포 가이드
+
+**🔍 [SEO_GUIDE.md](SEO_GUIDE.md)** - 검색 엔진 최적화 및 노출 가이드
 
 ### 빠른 시작
 

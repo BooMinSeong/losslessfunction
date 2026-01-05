@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://losslessfunction.pages.dev/sitemap.xml

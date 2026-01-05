@@ -7,6 +7,10 @@ theme: 'PaperMod'
 buildDrafts: false
 buildFuture: false
 
+# SEO 설정
+enableRobotsTXT: true
+enableGitInfo: true
+
 # 메뉴 구성
 menu:
   main:
@@ -50,6 +54,15 @@ params:
   homeInfoParams:
     Title: "Never Leave Ph.D"
     Content: "논문 리뷰, 생각 정리, 음악 감상"
+
+  # SEO 최적화
+  images:
+    - /images/logo.png  # 소셜 미디어 공유 이미지 (생성 후 추가)
+
+  # 소셜 미디어 메타 태그
+  socialIcons:
+    - name: github
+      url: "https://github.com/BooMinSeong"
 
 # JSON 출력 설정 (AI 친화적)
 outputs:
